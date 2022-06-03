@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+:root{
+  --bg-color-dark:#1a1a1b;
+
+  --bg-color:#272729;
+  --bg-color-hover:#413f3f;
+
+  --border-color:#373738;
+
+}
+body{
+  background-color:black;
+  font-family:'Noto Sans';
+  height:2000px;
+}
+
+h1,h2,h3,h4,h5,p,ul{
+  color:#c4c5c5;
+}
+
+h2{
+  font-size:clamp(1rem, 1.1vw, 1.2rem);
+}

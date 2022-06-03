@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reddit</title>
+
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div>
+      <div id="left-section">
+        <div id="container-logo">
+          <img id="logo" src="assets/reddit.svg">
+          <img id="logo-txt" src="assets/logo1.svg">
+        </div>
+        <select>
+          <option>Home</option>
+          <option>Popular</option>
+        </select>
+      </div>
+
+      <div id="middle-section">
+        <input placeholder="Search Reddit"/>
+        <img src="assets/arrow.svg">
+        <img src="assets/lader.svg">
+        <img src="assets/cam.svg">
+      </div>  
+
+      <div id="right-section">
+        <div id="icons">
+          <img src="assets/message.svg">
+          <img src="assets/bell.svg">
+          <img src="assets/plus.svg">
+          <img src="assets/advertising.svg">
+          <button>Free</button>
+        </div>
+
+        <div id="profile">
+          <img id="img-profile-2"  src="assets/profile.png">
+          <div id="info-profile">
+            <p>Jack182</p>
+            <div id="stats-profile">
+              <img id="img-profile-3" src="assets/stats.svg">
+              <p><span>357 karma</span></p>
+            </div>
+          </div>
+
+       <!--
+            <div class="profile-select">
+              <nav>
+                <div id="header-navigation">
+
+                  <img class="img-nav" src="assets/bell.svg">
+                  <img class="img-nav" src="assets/bell.svg">
+                  <img class="img-nav" src="assets/bell.svg">
+                  <img class="img-nav" src="assets/bell.svg">
+                </div>
+
+                <ul>
+                  <li id="lk1">Links</li>
+                  <li>My Profile</li>
+                  <li>Posts</li>
+                  <li>Comments</li>
+                </ul>
+
+              </nav>
+              </div>
+          -->  
+        </div>
+      </div>
+
+    </div> 
+  </header>
+
+  <div id="container">
+    <div id="trending-container">
+      <nav>
+        <div class="trending">
+          <h2>Divinity 2</h2>
+          <h5>Game of the Year</h5>
+          <div>
+              <img src="subreddit-img/divinity.png">
+              <p>r/divinity and more</p>
+          </div>
+        </div>
+
+        <div class="trending">
+          <h2>Scalene</h2>
+          <h5>Album of the Year</h5>
+          <div>
+            <img src="subreddit-img/music.png">
+            <p>r/music and more</p>
+          </div>
+        </div>
+
+        <div class="trending">
+          <h2>GTX 1060</h2>
+          <h5>Better than sex</h5>
+          <div>
+            <img src="subreddit-img/divinity.png">
+            <p>r/pcmasterrace and more</p>
+          </div>
+        </div>
+
+        <div class="trending">
+          <h2>Family</h2>
+          <h5>Dafuq i was trying to write</h5>
+          <div>
+            <img src="subreddit-img/news.png">
+            <p>news and more</p>
+         </div>
+        </div>
+      </nav>
+    </div>
+    <div id="main-container">
+      <!---------------------BEGIN-SIDEBAR---------------------------->
+      <div class="sidebar">
+
+        <!---------------------1-SIDEBAR---------------------------->
+        <div id="sidebar-1">
+              <div id="sidebar-header-container">
+                <h2>Top Communities</h2>
+              </div>
+              <div class="sidebar-communities">
+                <p>1</p>
+                <img src="assets/green-arrow.svg">
+
+                  <img src="subreddit-img/news.png">
+                  <p>r/technews</p>
+
+                <button>Join</button>
+              </div>
+
+              <div class="sidebar-communities">
+                <p>2</p>
+                <img src="assets/green-arrow.svg">
+                <img src="subreddit-img/technews.png">
+                <p>r/technews</p>
+                <button>Join</button>
+              </div>
+
+              <div class="sidebar-communities">
+                <p>3</p>
+                <img src="assets/green-arrow.svg">
+                <img src="subreddit-img/saveclick.png">
+                <p>r/savedyouaclick</p>
+                <button>Join</button>
+              </div>
+
+              <div class="sidebar-communities">
+                <p>4</p>
+                <img src="assets/green-arrow.svg">
+                <img src="subreddit-img/divinity.png">
+                <p>r/Divinity</p>
+                <button>Join</button>
+              </div>
+
+              <div class="sidebar-communities">
+                <p>5</p>
+                <img src="assets/green-arrow.svg">
+                <img src="subreddit-img/pcmaster.png">
+                <p>r/pcmasterrace</p>
+                <button>Join</button>
+              </div>
+              
+              <div class="sidebar-btn-container">
+              <button class="sidebar-btn"> View All</button>
+                <div id="sidebar-tags">
+                  <p>Top</p>
+                  <p>Near You</p>
+                  <p>Aww</p>
+                  <p>Gaming</p>
+                </div>
+            </div>
+          </div>
+
+          <!---------------------2-SIDEBAR---------------------------->
+          <div id="sidebar-2">
+            <div>
+
+              <img src="assets/premium.svg">
+              <div>
+                <p>Reddit Premium</p>
+                <p>The best Reddit experience, with monthly Coins</p>
+            </div>
+
+            </div>
+            <button>Try Now</button>
+          </div>
+        
+
+        <!---------------------3-SIDEBAR---------------------------->
+        <div id="sidebar-3">
+          <div id="banner">
+
+            <div id="sidebar-header-create">
+              <div>
+                <img src="background-imgs/logo-banner.png">
+                <h4>Home</h4>
+              </div>
+
+              <p>
+                Your personal Reddit frontpage.
+                Come here to check in with your 
+                favorite communities.
+              </p>
+            </div>
+
+
+            <div id="sidebar-3-buttons">
+              <button>Create Post</button>
+              <button>Create Community</button>
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+     <!----------------------END-SIDEBAR---------------------------->
+
+      <main>
+
+        <div class="create">
+          <img id="profile-create-img" src="assets/profile.png">
+          <input id="input-create" placeholder="Create Post"/>
+          <img src="assets/img-icon.svg">
+          <img src="assets/chain.svg">
+        </div>
+
+        <nav id="filter">
+          <ul>
+            <li><img src="assets/rocket.png"><h4>Best</h4></li>
+            <li><img src="assets/hot.svg"><h4>Hot</h4></li>
+            <li><img src="assets/new.svg"><h4>New</h4></li>
+            <li><img src="assets/top.svg"><h4>Top</h4></li> 
+            <li><img src="assets/dots.svg"></li>   
+          </ul>
+        </nav>
+
+         <!----------------------POST-1---------------------------->
+        <div class="post-container">
+          <div class="post-votes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19V6M5 12l7-7 7 7"/>
+            </svg>
+            <h5>15</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v13M5 12l7 7 7-7"/>
+            </svg>
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="subreddit-img/seinfeld.jpeg">
+              <h5>r/seinfeld &#8226; <span>Posted by u/Username 4 hours ago</span></h5>
+            </div>
+            <div class="post-title">
+              <h2>
+                How many episodes can you 
+                think of where George comes out on top?
+              </h2>
+            </div>
+
+            <div class="post-content">
+              <h3>
+                I can think of The Stock Tip, 
+                The Phone Message and The Opposite. And that's it.
+              </h3>
+            </div>
+            
+            <div class="post-nav">
+              <ul>
+                <li><img src="assets/message.svg"> 200 Coments</li>
+                <li><img src="assets/award.svg"> Award</li>
+                <li><img src="assets/share.svg"> Share</li>
+                <li><img src="assets/save.svg"> Save</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!----------------------POST-2---------------------------->
+        <div class="post-container">
+          <div class="post-votes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19V6M5 12l7-7 7 7"/>
+            </svg>
+            <h5>15</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v13M5 12l7 7 7-7"/>
+            </svg>
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="subreddit-img/seinfeld.jpeg">
+              <h5>r/seinfeld &#8226; <span>Posted by u/Username 4 hours ago</span></h5>
+            </div>
+            <div class="post-title">
+              <h2>
+                What just happened t
+                o George? WRONG answers only!
+              </h2>
+            </div>
+
+            <div class="post-content">
+              <img src="posts-img/Jerry.webp">
+            </div>
+            
+            <div class="post-nav">
+              <ul>
+                <li><img src="assets/message.svg"> 200 Coments</li>
+                <li><img src="assets/award.svg"> Award</li>
+                <li><img src="assets/share.svg"> Share</li>
+                <li><img src="assets/save.svg"> Save</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        
+        <!----------------------POST-3---------------------------->
+        <div class="post-container">
+          <div class="post-votes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19V6M5 12l7-7 7 7"/>
+            </svg>
+            <h5>15</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v13M5 12l7 7 7-7"/>
+            </svg>
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="subreddit-img/memes.png">
+              <h5>r/memes &#8226; <span>Posted by u/Username 4 hours ago</span></h5>
+            </div>
+            <div class="post-title">
+              <h2>
+                When you don't know what
+                you're doing but you want to help
+              </h2>
+            </div>
+
+            <div class="post-content">
+              <img src="posts-img/Dog.webp">
+            </div>
+            
+            <div class="post-nav">
+              <ul>
+                <li><img src="assets/message.svg"> 200 Coments</li>
+                <li><img src="assets/award.svg"> Award</li>
+                <li><img src="assets/share.svg"> Share</li>
+                <li><img src="assets/save.svg"> Save</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        
+        <!----------------------POST-4---------------------------->
+        <div class="post-container">
+          <div class="post-votes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19V6M5 12l7-7 7 7"/>
+            </svg>
+            <h5>15</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v13M5 12l7 7 7-7"/>
+            </svg>
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="subreddit-img/Snorlax.png">
+              <h5>r/Pokemon  &#8226; <span>Posted by u/Username 4 hours ago</span></h5>
+            </div>
+            <div class="post-title">
+              <h2>
+                My latest little animated project
+
+              </h2>
+            </div>
+
+            <div class="post-content">
+              <video width="90%" controls autoplay loop> 
+                <source src="posts-img/Charizard.mp4" type="video/mp4"> 
+              </video>
+            </div>
+            
+            <div class="post-nav">
+              <ul>
+                <li><img src="assets/message.svg"> 200 Coments</li>
+                <li><img src="assets/award.svg"> Award</li>
+                <li><img src="assets/share.svg"> Share</li>
+                <li><img src="assets/save.svg"> Save</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+       <!----------------------POST-5---------------------------->
+        <div class="post-container">
+          <div class="post-votes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19V6M5 12l7-7 7 7"/>
+            </svg>
+            <h5>15</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24" fill="none" stroke="#343536" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v13M5 12l7 7 7-7"/>
+            </svg>
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="subreddit-img/memes.png">
+              <h5>r/memes  &#8226; <span>Posted by u/Username 4 hours ago</span></h5>
+            </div>
+            <div class="post-title">
+              <h2>
+              shit just went from unlimited power to i'm too weak.
+              </h2>
+            </div>
+
+            <div class="post-content">
+              <video width="90%" controls autoplay loop> 
+                <source src="posts-img/meme.mp4" type="video/mp4"> 
+              </video>
+            </div>
+            
+            <div class="post-nav">
+              <ul>
+                <li><img src="assets/message.svg"><p> 200 Coments</p></li>
+                <li><img src="assets/award.svg"><p>Award</p> </li>
+                <li><img src="assets/share.svg"><p>Share</p></li>
+                <li><img src="assets/save.svg"><p>Save</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+
+
+</body>
+</html>
